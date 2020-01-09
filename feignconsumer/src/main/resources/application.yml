@@ -1,0 +1,11 @@
+
+server:
+  port: 8764
+
+spring:
+  application:
+    name: nacos-fegin-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
